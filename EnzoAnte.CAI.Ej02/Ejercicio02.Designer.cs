@@ -43,6 +43,7 @@
             // cmbMarca
             // 
             cmbMarca.FormattingEnabled = true;
+            cmbMarca.Items.AddRange(new object[] { "Ford", "Fiat", "Chevrolet", "Audi" });
             cmbMarca.Location = new Point(12, 27);
             cmbMarca.Name = "cmbMarca";
             cmbMarca.Size = new Size(230, 23);
@@ -113,6 +114,7 @@
             btnAceptar.TabIndex = 8;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // btnCancelar
             // 
