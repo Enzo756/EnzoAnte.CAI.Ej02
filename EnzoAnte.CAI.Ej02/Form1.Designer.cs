@@ -1,6 +1,6 @@
 ﻿namespace EnzoAnte.CAI.Ej02
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -123,7 +123,7 @@
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -138,8 +138,8 @@
             Controls.Add(txtModelo);
             Controls.Add(lblMarca);
             Controls.Add(cmbMarca);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "FormPrincipal";
+            Text = "Prototipos - Ejercicio 2";
             ResumeLayout(false);
             PerformLayout();
         }
