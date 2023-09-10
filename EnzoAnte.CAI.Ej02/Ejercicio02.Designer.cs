@@ -138,8 +138,10 @@
             Controls.Add(txtModelo);
             Controls.Add(lblMarca);
             Controls.Add(cmbMarca);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormPrincipal";
             Text = "Prototipos - Ejercicio 2";
+            Load += FormPrincipal_Load;
             ResumeLayout(false);
             PerformLayout();
         }
