@@ -28,12 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            cmbMarca = new ComboBox();
+            lblMarca = new Label();
+            SuspendLayout();
+            // 
+            // cmbMarca
+            // 
+            cmbMarca.FormattingEnabled = true;
+            cmbMarca.Location = new Point(12, 27);
+            cmbMarca.Name = "cmbMarca";
+            cmbMarca.Size = new Size(230, 23);
+            cmbMarca.TabIndex = 0;
+            // 
+            // lblMarca
+            // 
+            lblMarca.AutoSize = true;
+            lblMarca.Location = new Point(12, 9);
+            lblMarca.Name = "lblMarca";
+            lblMarca.Size = new Size(40, 15);
+            lblMarca.TabIndex = 1;
+            lblMarca.Text = "Marca";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblMarca);
+            Controls.Add(cmbMarca);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ComboBox cmbMarca;
+        private Label lblMarca;
     }
 }
